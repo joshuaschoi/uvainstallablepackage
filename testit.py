@@ -1,5 +1,6 @@
 import shared as sh
 sh.afunction()
+sh.name_call()
 
 def test_multi_spaces():
     assert sh.space_compress('word       word     word') == 'word word word', "Failed multi space"
