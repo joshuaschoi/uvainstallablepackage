@@ -23,3 +23,6 @@ def space_compress(stocomp):
 
 def new_func():
     pass
+
+def name_call():
+    print("Hello World, This is Joshua Choi")
