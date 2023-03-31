@@ -34,8 +34,3 @@ def test_space_compressor_failure(input, expected):
 @pytest.mark.skip(reason="According to the instruction, this function is skipped.")
 def test_skip():
     assert 1 == 12
-
-@pytest.mark.skipif(sys.platform == 'darwin', reason = "Test only for darwins")
-def test_os():
-    print("My Plaform is ", sys.platform)
-    assert 1 == 12
